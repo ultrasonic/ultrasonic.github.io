@@ -12,9 +12,10 @@ This is the [Ultrasonic Website][1] repository.
 
 If you have [Docker][2].
 
-- Build a [Jekyll][3] container `docker build -t ultrasonic_jekyll .`.
-- Run container `docker run -t -i --rm -p 4000:4000 -v `pwd`:/app
-  ultrasonic_jekyll`.
+- Build [Jekyll][3] container `docker build -t ultrasonic_jekyll .`
+  using the included Dockerfile.
+- Run container ``docker run -t -i --rm -p 4000:4000 -v `pwd`:/app
+  ultrasonic_jekyll``.
 
 If you don't use [Docker][2].
 
