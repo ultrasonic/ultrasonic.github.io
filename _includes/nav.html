@@ -1,0 +1,22 @@
+<nav class="navbar fixed-top navbar-expand-md navbar-dark bg-primary justify-content-between">
+  <a class="navbar-brand" href="{{ site.url }}">
+    <svg class="d-inline-block align-middle mr-2" width="36" height="36" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><path d="m32 0c-17.673 0-32 14.327-32 32s14.327 32 32 32 32-14.327 32-32-14.327-32-32-32zm0 62c-16.568 0-30-13.432-30-30s13.432-30 30-30 30 13.432 30 30-13.432 30-30 30z" fill="#fff"/><path d="m32 16c-8.836 0-16 7.163-16 16v9c0 2.209 1.791 4 4 4s4-1.791 4-4v-6c0-2.209-1.791-4-4-4-0.723 0-1.392 0.207-1.977 0.542 0.244-7.518 6.4-13.542 13.977-13.542s13.732 6.024 13.977 13.542c-0.584-0.335-1.254-0.542-1.977-0.542-2.209 0-4 1.791-4 4v6c0 2.209 1.791 4 4 4s4-1.791 4-4v-9c0-8.837-7.163-16-16-16zm-12 17c1.104 0 2 0.896 2 2v6c0 1.104-0.896 2-2 2s-2-0.896-2-2v-6c0-1.104 0.896-2 2-2zm26 8c0 1.104-0.896 2-2 2s-2-0.896-2-2v-6c0-1.104 0.896-2 2-2s2 0.896 2 2z" fill="#fff"/></svg>
+    {{ site.title | default: site.github.repository_name }}</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-md-auto">
+      {% for nav in site.data.nav %}
+      <li class="nav-item">
+        <a class="nav-link {% if nav.url == page.url %}active{% endif %}" href="{{ nav.url }}">{{ nav.title }}</a>
+      </li>
+      {% endfor %}
+      {% if site.github_url %}
+      <li class="nav-item">
+        <a class="nav-link" href="{{ site.github_url }}">GitHub</a>
+      </li>
+      {% endif %}
+    </ul>
+  </div>
+</nav>

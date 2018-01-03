@@ -1,0 +1,33 @@
+---
+---
+
+@import 'bootstrap';
+
+//  Sticky footer styles //
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-top: 62px; /* Margin top by navbar height */
+  margin-bottom: 60px; /* Margin bottom by footer height */
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  min-height: 60px; /* Fixed height of the footer */
+  line-height: 24px; /* Vertically center the text there */
+  padding-top: 8px;
+  background-color: #f5f5f5;
+}
+
+// We love copyleft //
+
+.copyleft {
+  display:inline-block;
+  transform: scaleX(-1);
+}

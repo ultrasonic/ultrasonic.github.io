@@ -1,0 +1,12 @@
+# Site configuration
+title: Ultrasonic
+description: >
+  A free and open-source music streaming Android client for Subsonic API compatible servers.
+
+# Build settings
+exclude: [ Dockerfile ]
+
+# Project vars
+github_url: "https://github.com/ultrasonic/ultrasonic"
+github_website_url: "https://github.com/ultrasonic/ultrasonic.github.io"
+#github_docs_url: ""
