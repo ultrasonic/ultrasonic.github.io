@@ -13,8 +13,8 @@ then, please, first discuss the change you wish to make via [a new issue](https:
 
 ## Contributing Translations
 
-Interested in helping to translate Ultrasonic? You can contribute here in
-our [Transifex team](https://www.transifex.com/ultrasonic/ultrasonic/).
+Interested in help to translate Ultrasonic? You can contribute in our
+[Transifex team](https://www.transifex.com/ultrasonic/ultrasonic/).
 
 ## Contributing Code
 
