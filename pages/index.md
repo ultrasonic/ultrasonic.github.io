@@ -12,7 +12,7 @@ Subsonic API (version 1.7.0 or higher) compatible servers.
 The supported (tested) Subsonic API implementations are the following.
 
 - [Subsonic](http://www.subsonic.org/pages/index.jsp)
-- [Airsonic](https://github.com/airsonic/airsonic)
+- [Airsonic-Advanced](https://github.com/airsonic-advanced/airsonic-advanced)
 - [Supysonic](https://github.com/spl0k/supysonic)
 
 ## Bugs, issues and feature requests
